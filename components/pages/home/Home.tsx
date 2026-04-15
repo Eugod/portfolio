@@ -1,9 +1,11 @@
+import { Header } from "../../layouts/Header"
 import styles from "./home.module.css"
 
 export const HomePage = () => {
     return (
-        <div>
+        <main>
+            <Header />
             <p>Home</p>
-        </div>
+        </main>
     )
 }
