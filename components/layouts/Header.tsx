@@ -6,18 +6,20 @@ import styles from "./header.module.css"
 export const Header = () => {
     return (
         <header className={styles.headerContainer}>
-            <a href="/">
-                <Image
-                    src="/logo.png"
-                    alt="Logo"
-                    width={150}
-                    height={40}
-                    loading="eager"
-                />
-            </a>
+            <div className={styles.headerSubContainer}>
+                <a href="/">
+                    <Image
+                        src="/logo.png"
+                        alt="Logo"
+                        width={150}
+                        height={40}
+                        loading="eager"
+                    />
+                </a>
 
-            <Navbar />
-            <HamburguerNavbar />
+                <Navbar />
+                <HamburguerNavbar />
+            </div>
         </header>
     )
 }

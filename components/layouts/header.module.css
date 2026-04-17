@@ -1,8 +1,13 @@
 .headerContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     padding: 16px;
     border-bottom: 1px solid var(--divider);
+
+    .headerSubContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1260px;
+        margin: 0 auto;
+    }
 }
