@@ -8,7 +8,7 @@ export const HamburguerNavbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleMenu() {
-        setIsOpen(!isOpen);
+        setIsOpen(prev => !prev);
     }
 
     return (
