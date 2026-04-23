@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Navbar } from "../sections/Navbar/Navbar"
-import { HamburguerNavbar } from "../sections/HamburguerNavbar/HamburguerNavbar"
+import { HamburgerNavbar } from "../sections/HamburgerNavbar/HamburgerNavbar"
 import styles from "./header.module.css"
 
 export const Header = () => {
@@ -18,7 +18,7 @@ export const Header = () => {
                 </a>
 
                 <Navbar />
-                <HamburguerNavbar />
+                <HamburgerNavbar />
             </div>
         </header>
     )

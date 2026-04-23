@@ -1,10 +1,10 @@
 @media screen and (min-width: 1024px) {
-    .hamburguerNavbarContainer {
+    .hamburgerNavbarContainer {
         display: none;
     }
 }
 
-.hamburguerNavbarContainer {
+.hamburgerNavbarContainer {
     position: relative;
 
     button {

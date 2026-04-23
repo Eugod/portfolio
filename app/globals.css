@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 html,
 body,
 div,
@@ -150,8 +148,8 @@ table {
     --green-accent: #34D399;
     --blue-soft: #93C5FD;
 
-    --primary-font: 'Krona One', sans-serif;
-    --secondary-font: 'Montserrat', sans-serif;
+    --primary-font: var(--font-krona-one), sans-serif;
+    --secondary-font: var(--font-montserrat), sans-serif;
 }
 
 html {
