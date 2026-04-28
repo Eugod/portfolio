@@ -8,12 +8,12 @@ export const HamburgerNavbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleMenu() {
-        setIsOpen(!isOpen);
+        setIsOpen((prev) => !prev);
     }
 
     return (
         <div className={styles.hamburgerNavbarContainer}>
-            <button type="button" aria-expanded={isOpen} aria-controls="menu-container" onClick={toggleMenu}>
+            <button type="button" aria-label={isOpen ? "Close menu" : "Open menu"} aria-expanded={isOpen} aria-controls="menu-container" onClick={toggleMenu}>
                 <Image
                     src="/hamburger-nav-icon.png"
                     alt="Hamburger Icon"

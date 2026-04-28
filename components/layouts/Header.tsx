@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Navbar } from "../sections/Navbar/Navbar"
 import { HamburgerNavbar } from "../sections/HamburgerNavbar/HamburgerNavbar"
 import styles from "./header.module.css"
@@ -7,7 +8,7 @@ export const Header = () => {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerSubContainer}>
-                <a href="/">
+                <Link href="/">
                     <Image
                         src="/logo.png"
                         alt="Logo"
@@ -15,7 +16,7 @@ export const Header = () => {
                         height={40}
                         loading="eager"
                     />
-                </a>
+                </Link>
 
                 <Navbar />
                 <HamburgerNavbar />
