@@ -1,0 +1,49 @@
+@media screen and (min-width: 1024px) {
+    .hamburgerNavbarContainer {
+        display: none;
+    }
+}
+
+.hamburgerNavbarContainer {
+    position: relative;
+}
+
+.hamburgerNavbarContainer button {
+    background-color: transparent;
+    border: none;
+}
+
+.hamburgerNavbarContainer .menuContainer {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: var(--primary-strong);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px;
+    width: max-content;
+}
+
+.hamburgerNavbarContainer .menuContainer .menuArrow {
+    position: absolute;
+    top: -7px;
+    right: 13px;
+    transform: rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary-strong);
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.hamburgerNavbarContainer .menuContainer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hamburgerNavbarContainer .menuContainer nav a {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
