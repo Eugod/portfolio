@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Navbar } from "../sections/Navbar/Navbar"
-import { HamburgerNavbar } from "../sections/HamburgerNavbar/HamburgerNavbar"
+import { Navbar } from "../../sections/Navbar/Navbar"
+import { HamburgerNavbar } from "../../sections/HamburgerNavbar/HamburgerNavbar"
 import styles from "./header.module.css"
 
 export const Header = () => {
