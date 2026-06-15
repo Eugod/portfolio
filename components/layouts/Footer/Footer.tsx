@@ -1,20 +1,20 @@
 import { Logo } from "../../sections/Logo/Logo"
 import { ContactIcon } from "../../sections/ContactIcon/ContactIcon"
-import style from "./footer.module.css"
+import styles from "./footer.module.css"
 
 export const Footer = () => {
     return (
-        <footer className={style.footer}>
-            <div className={style.footerContainer}>
-                <div className={style.footerSubContainer}>
+        <footer className={styles.footer}>
+            <div className={styles.footerContainer}>
+                <div className={styles.footerSubContainer}>
                     <Logo />
 
 
-                    <p className={style.footerDescription}>
+                    <p className={styles.footerDescription}>
                         Desenvolvedor Full Stack focado em criar aplicações robustas, performáticas e bem estruturadas, unindo experiência de frontend moderno com evolução constante em backend e arquitetura.
                     </p>
 
-                    <div className={style.contactIconsContainer}>
+                    <div className={styles.contactIconsContainer}>
                         <ContactIcon
                             iconSrc="/linkedin-icon.png"
                             altText="LinkedIn"
@@ -33,7 +33,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <p className={style.footerCopyright}>
+                <p className={styles.footerCopyright}>
                     © 2025 Eugenio Rodrigues. All rights reserved.
                 </p>
             </div>
