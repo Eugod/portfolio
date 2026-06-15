@@ -1,4 +1,5 @@
-import { Header } from "../../layouts/Header"
+import { Header } from "../../layouts/Header/Header"
+import { Footer } from "../../layouts/Footer/Footer"
 import styles from "./home.module.css"
 
 export const HomePage = () => {
@@ -6,6 +7,7 @@ export const HomePage = () => {
         <main>
             <Header />
             <p>Home</p>
+            <Footer />
         </main>
     )
 }
